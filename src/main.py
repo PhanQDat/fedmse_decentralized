@@ -187,7 +187,8 @@ if __name__ == "__main__":
     for update_type in ["avg", "fedprox", "mse_avg"]:
         for model_type in ["hybrid", "autoencoder"]:
             for run in range(num_runs):
-                logging.info(f"Starting model_type: {model_type}, update_type: {update_type}, run: {run}")                set_seeds(run*10000)
+                logging.info(f"Starting model_type: {model_type}, update_type: {update_type}, run: {run}")                
+                set_seeds(run*10000)
                 for client in client_info:
                     client['save_dir'] = os.path.join(f"Checkpoint/{network_size}/{no_Exp}/{run}/ClientModel", scen_name, model_type, update_type, client['device'])
                 
