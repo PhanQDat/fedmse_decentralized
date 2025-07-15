@@ -1,11 +1,3 @@
-"""
-This is Autoencoder model definition.
-@author
-- Van Tuan Nguyen (vantuan.nguyen@lqdtu.edu.vn)
-- Razvan Beuran (razvan@jaist.ac.jp)
-@create date 2023-12-16 20:07:29
-"""
-
 from itertools import chain
 import numpy as np
 import torch
