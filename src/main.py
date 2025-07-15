@@ -44,6 +44,8 @@ dim_features = 115   #nba-iot: 115; cic-2023: 46
 scen_name = 'FL-IoT' 
 
 config_file = f"Configuration/kitsune-iot-10clients.json"
+# config_file = f"Configuration/kitsune-iot-10clients-IID.json"
+# config_file = f"Configuration/kitsune-iot-10clients-nonIID.json"
 
 def set_seeds(seed):
     random.seed(seed)
