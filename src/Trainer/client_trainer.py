@@ -1,11 +1,3 @@
-"""
-This is training endpoint.
-@author
-- Van Tuan Nguyen (vantuan.nguyen@lqdtu.edu.vn)
-- Razvan Beuran (razvan@jaist.ac.jp)
-@create date 2023-12-11 00:28:29
-"""
-
 from tqdm import tqdm
 import torch
 from torch import nn
